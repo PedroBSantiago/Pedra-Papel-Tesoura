@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200,900');
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  position:relative;
+  padding: 10px 20px;  
+  border: none;
+  background: none;
+  cursor: pointer;
+  
+  font-family: "Source Code Pro";
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 30px;  
+  color: var(--text-color);
+}
+
+body{
+background: center;
+background-color: aquamarine;
+
+}
+
+h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 40px;
+    background:rgba(89, 89, 194, 0.253);
+    height: 60px;
+    width: 800px;
+    justify-self:center;
+    border-radius: 30px;
+  }
+  p, label{
+    font-size: 30px;
+   justify-self: center;
+   text-align: center;
+   }
+.text{
+    font-size: 30px;
+   justify-self: center;
+   text-align: center;
+   background-color: rgb(124, 238, 114);
+   border-radius: 20px;
+}
